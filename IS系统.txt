@@ -1,0 +1,25 @@
+http://localhost:8888/asip_is/f
+	
+
+注册页面 frontReg.jsp
+个人信息页面sys_user
+登录名判重 FrontUserController	checkUserName
+验证码验证 FrontUserController	checkValidCode
+注册 FrontRegisterController	save
+
+验证邮箱页面sys_mail
+重新发送 FrontRegisterController reSend
+验证 FrontRegisterController	check
+下一步 FrontRegisterController	checkmail
+
+验证手机页面
+获取验证码	FrontRegisterController	ValidateCode
+下一步 FrontRegisterController	ValidatePhone
+
+验证身份页面 user_realname
+step4.jsp
+上传   FrontRegisterController	upload
+下一步 FrontRegisterController	save4
+
+验证银行卡
+
